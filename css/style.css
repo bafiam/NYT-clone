@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+header,
+nav {
+  width: 100%;
+}
+
+header {
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.small-icon {
+  width: 20px;
+  height: 20px;
+}
+
+nav,
+.nav-left,
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-left {
+  margin: 9px 0 0 -20px;
+}
+
+.nav-right {
+  margin: 6px 10px 0 0;
+}
+
+.nav-right button {
+  background: rgb(51, 51, 51);
+  color: white;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 4px;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+.space-cosmos {
+  margin: 2px 0 0 0;
+}
+
+.space-cosmos a {
+  font-weight: bolder;
+  color: #000;
+  font-size: 14px;
+}
+
+.space-cosmos a {
+  text-decoration: none;
+}
+
+.nav-right li a {
+  font-size: 13px;
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+}
+
+.space-cosmos a:hover {
+  text-decoration: underline;
+}
+
+.subscribe {
+  margin: 6px 20px 0 0;
+}
+
+.space-cosmos a {
+  text-transform: uppercase;
+}
+
+.search-icon {
+  margin: 0 30px 0 22px;
+}
+
+.nav-center li img {
+  width: 190px;
+}
