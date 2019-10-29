@@ -17,6 +17,7 @@ header {
   top: 0;
   left: 0;
   background-color: #fff;
+  z-index: 990;
 }
 
 .small-icon {
@@ -125,7 +126,7 @@ nav ul li {
 }
 
 .article-figure {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -137,8 +138,8 @@ nav ul li {
 }
 
 .article-figure figcaption {
-  width: 75%;
-  margin: 5px 7px 0 0;
+  width: 80%;
+  margin: 10px 7px 0 0;
   color: #666;
   line-height: 1.25rem;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
@@ -168,7 +169,12 @@ nav ul li {
 
 .social-icons ul li:first-child {
   float: left;
-  margin: 20px 0 0 -40px;
+  margin: 27px 0 0 -40px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 500;
+  color: #333;
+  font-size: 0.8125rem;
+  line-height: 1rem;
 }
 
 .social-icons ul li:last-child {
@@ -177,4 +183,77 @@ nav ul li {
 
 .social-icons {
   margin-bottom: 80px;
+}
+
+.article-body > p {
+  margin-bottom: 0.78125rem;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 20px;
+  line-height: 2rem;
+  color: #333;
+}
+
+.article-body > p > a {
+  color: #326891;
+}
+
+.article-addational-info {
+  width: 75%;
+  margin: 30px auto;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+}
+
+.article-addational-info > h2 {
+  font-size: 18px;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  margin-bottom: 4px;
+}
+
+.article-addational-info > p {
+  font-size: 14.5px;
+  line-height: 18px;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: nyt-cheltenham-sh, georgia, 'times new roman', times, serif;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.images {
+  position: relative;
+}
+
+.images img {
+  width: 100%;
+}
+
+.images .cards > div {
+  width: 24%;
+  float: left;
+  margin-bottom: 140px;
+  margin-left: 1%;
+}
+
+.cards {
+  position: absolute;
+  top: 170px;
+}
+
+.cards > div > p {
+  font-size: 13px;
+  line-height: 1.2rem;
+}
+
+.bold {
+  font-weight: 800;
+  margin-right: 20px;
+  font-size: 11px;
+}
+
+.down {
+  margin-top: 15px;
 }
