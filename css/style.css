@@ -1,6 +1,7 @@
 * {
   margin: 0;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
+  box-sizing: border-box;
 }
 
 header,
@@ -11,6 +12,11 @@ nav {
 header {
   box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
   border-bottom: 1px solid #e2e2e2;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
 }
 
 .small-icon {
@@ -18,19 +24,29 @@ header {
   height: 20px;
 }
 
-nav,
-.nav-left,
-.nav-right {
-  display: flex;
-  justify-content: space-between;
+nav {
+  text-align: center;
 }
 
 .nav-left {
+  float: left;
   margin: 9px 0 0 -20px;
 }
 
+.left {
+  float: left;
+}
+
+.nav-center {
+  float: left;
+}
+
 .nav-right {
-  margin: 6px 10px 0 0;
+  float: right;
+}
+
+.clear {
+  clear: both;
 }
 
 .nav-right button {
@@ -39,23 +55,26 @@ nav,
   padding: 7px 15px;
   border: none;
   border-radius: 4px;
+  margin: 5px 15px 0 0;
 }
 
 nav ul li {
   list-style-type: none;
+  display: inline-block;
 }
 
 .space-cosmos {
   margin: 2px 0 0 0;
 }
 
+.nav-center::after {
+  clear: both;
+}
+
 .space-cosmos a {
   font-weight: bolder;
   color: #000;
   font-size: 14px;
-}
-
-.space-cosmos a {
   text-decoration: none;
 }
 
@@ -70,7 +89,7 @@ nav ul li {
 }
 
 .subscribe {
-  margin: 6px 20px 0 0;
+  margin: 10px 20px 0 0;
 }
 
 .space-cosmos a {
@@ -83,4 +102,5 @@ nav ul li {
 
 .nav-center li img {
   width: 190px;
+  margin-left: 310px;
 }
