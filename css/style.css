@@ -198,6 +198,12 @@ nav ul li {
   color: #326891;
 }
 
+.article-body > h4 {
+  font-size: 20px;
+  color: #333;
+  margin: 20px 0;
+}
+
 .article-addational-info {
   width: 75%;
   margin: 30px auto;
@@ -334,4 +340,35 @@ nav ul li {
 .social-icons-end img {
   float: right;
   margin-top: -20px;
+}
+
+.articles {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.extra-articles {
+  width: 74%;
+  border-top: 1px solid black;
+  padding-top: 30px;
+  float: left;
+}
+
+.most-popular {
+  width: 23%;
+  padding-top: 30px;
+  border-top: 1px solid black;
+  float: right;
+}
+
+.articles-box {
+  width: 100%;
+}
+
+.articles-box .small-articles {
+  width: 30%;
+}
+
+.articles-box .small-articles img {
+  width: 100%;
 }
