@@ -471,8 +471,8 @@ nav ul li {
 .nyt-links > ul {
   float: left;
   width: 16.66%;
-  padding: 0;
   margin-top: 15px;
+  padding-bottom: 25px;
 }
 
 .nyt-links > ul:last-child {
@@ -531,3 +531,30 @@ footer {
   margin: 10px 0 10px 5px;
 }
 
+.nyt-footer {
+  border-top: 1px solid #e2e2e2;
+}
+
+.nyt-footer ul {
+  list-style-type: none;
+  padding-top: 10px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.nyt-footer ul li > a {
+  text-decoration: none;
+  color: #666;
+  font-size: 10px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.nyt-footer ul li > a:hover {
+  text-decoration: underline;
+}
+
+.nyt-footer ul > li {
+  display: inline-block;
+  color: rgb(153, 153, 153);
+  margin: 0 10px 0 0;
+}
