@@ -372,3 +372,7 @@ nav ul li {
 .articles-box .small-articles img {
   width: 100%;
 }
+
+.article-video iframe {
+  border: none;
+}
