@@ -471,8 +471,8 @@ nav ul li {
 .nyt-links > ul {
   float: left;
   width: 16.66%;
+  padding: 0 0 20px 0;
   margin-top: 15px;
-  padding-bottom: 25px;
 }
 
 .nyt-links > ul:last-child {
