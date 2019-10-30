@@ -443,3 +443,7 @@ nav ul li {
 .most-popular p > a:hover {
   color: #666;
 }
+
+.editor-section {
+  margin-top: -170px;
+}
