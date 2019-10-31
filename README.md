@@ -27,7 +27,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Authors
 
-1. [Stephen Gumba](https://github.com/bafiam/Personal-Projects)
+1. [Stephen Gumba](https://github.com/bafiam)
 2. [Iyara Oghenefegor Ferguson](https://github.com/fegzycole)
 
 ## Acknowledgments
