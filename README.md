@@ -19,7 +19,7 @@ This project consists of building a clone of a [New York Times](https://www.nyti
 
 ## Github Pages Link
 
-<https://>
+<https://bafiam.github.io/NYT-clone/>
 
 ## License
 
