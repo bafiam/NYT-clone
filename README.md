@@ -1,6 +1,6 @@
 # New York Times Clone
 
-This project consists of building a clone of a [New York Times](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)s article page
+This project consists of building a clone of a [New York Times](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) article page
 
 ## Project Description
 
