@@ -184,6 +184,10 @@ nav ul li {
   width: 190px;
 }
 
+.expand-arrow > img {
+  height: 25px;
+}
+
 .nav-center li img {
   width: 190px;
   margin-left: 310px;
@@ -356,9 +360,30 @@ nav ul li {
   padding: 10px 0;
 }
 
+.fixed-bottom > p {
+  text-align: center;
+}
+
+.fixed-bottom > p,
+.expand > p {
+  font-weight: 700;
+}
+
 .cards > div > p {
   font-size: 13px;
   line-height: 1.2rem;
+}
+
+.expand {
+  float: right;
+  margin-top: -15px;
+  margin-right: 150px;
+  position: relative;
+}
+
+.fixed-bottom > p:hover,
+.expand:hover {
+  cursor: pointer;
 }
 
 .bold {
@@ -631,33 +656,8 @@ footer {
   background: white;
 }
 
-.fixed-bottom > p {
-  text-align: center;
-}
-
-.fixed-bottom > p:hover,
-.expand:hover {
-  cursor: pointer;
-}
-
-.expand {
-  float: right;
-  margin-top: -15px;
-  margin-right: 150px;
-  position: relative;
-}
-
-.fixed-bottom > p,
-.expand > p {
-  font-weight: 700;
-}
-
 .expand-arrow {
   position: absolute;
   top: -4px;
   left: 70px;
-}
-
-.expand-arrow > img {
-  height: 25px;
 }
